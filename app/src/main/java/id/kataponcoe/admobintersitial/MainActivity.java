@@ -119,4 +119,9 @@ public class MainActivity extends AppCompatActivity {
         mInterstitialAd = newInterstitialAd();
         loadInterstitial();
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }
